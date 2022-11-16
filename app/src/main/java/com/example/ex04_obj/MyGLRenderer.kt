@@ -74,6 +74,7 @@ class MyGLRenderer(mContext:Context): GLSurfaceView.Renderer {
 
 		Matrix.setIdentityM(modelMatrix, 0)
 
+
 		andy.setModelMatrix(modelMatrix)
 		andy.setViewMatrix(mViewMatrix)
 		andy.setProjectionMatrix(mProiMatrix)
